@@ -32,4 +32,24 @@ public class Token {
     public String toString() {
         return String.format("(%d, %d)\t%s: %s, <%s>", this.l, this.c, this.type, this.lexeme, this.info == null ? "" : this.info.toString());
     }
+
+    public int getLine() {
+        return this.l;
+    }
+
+    public int getColumn() {
+        return this.c;
+    }
+
+    public TOKEN_TYPE getType() {
+        return this.type;
+    }
+
+    public String getLexeme() {
+        return this.lexeme;
+    }
+
+    public Object getInfo() {
+        return this.info;
+    }
 }

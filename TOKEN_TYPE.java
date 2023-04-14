@@ -4,6 +4,7 @@ public enum TOKEN_TYPE {
     INTEGER,
     FLOAT,
     CHAR,
+    STRING,
     BOOLEAN,
     PLUS,
     MINUS,
